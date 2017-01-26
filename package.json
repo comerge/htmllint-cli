@@ -1,7 +1,7 @@
 {
-  "name": "htmllint-cli",
-  "version": "0.0.6",
-  "description": "A simple cli for htmllint.",
+  "name": "@comerge/htmllint-cli",
+  "version": "0.0.7",
+  "description": "A simple cli for @comerge/htmllint.",
   "bin": {
     "htmllint": "./bin/cli.js"
   },
@@ -20,7 +20,7 @@
     "chalk": "^1.1.3",
     "cjson": "^0.5.0",
     "glob": "^7.1.1",
-    "htmllint": "^0.6.0",
+    "@comerge/htmllint": "^0.7.0",
     "liftoff": "^2.3.0",
     "promise": "^7.1.1",
     "semver": "^5.3.0",
@@ -29,5 +29,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "publishConfig": {
+    "registry": "http://pandora.comerge.net:9081/repository/npm-internal/"
   }
 }
