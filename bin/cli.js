@@ -64,7 +64,7 @@ app.launch({
         return;
     }
 
-    var htmllintPath = 'htmllint';
+    var htmllintPath = '@comerge/htmllint';
 
     if (env.modulePath) {
         var cliPackage = require('../package.json'),
