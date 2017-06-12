@@ -31,6 +31,6 @@
     "mocha": "^3.2.0"
   },
   "publishConfig": {
-    "registry": "http://pandora.comerge.net:9081/repository/npm-internal/"
+    "registry": "https://nexus.comerge.net/repository/comerge-private-npm/"
   }
 }
